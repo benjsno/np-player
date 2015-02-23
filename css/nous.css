@@ -1,0 +1,348 @@
+/*** ELEMENTS GENERAUX *****************************************************************************************************************************************/
+*          { margin:0; padding:0; }
+HTML, BODY { position:relative; height:100%; }
+BODY       { font-family:Arial, Helvetica, sans-serif; font-size:12px; position:relative; background:#FFF url(../pics/charte/bg-body.jpg) center center repeat-y; }
+UL         { list-style:inside; }
+A          { text-decoration:none; cursor:pointer; color:#2b87b6; }
+A:hover    { text-decoration:underline; }
+IMG        { border:none; }
+
+/*** CONTENEURS **************************************************************************************************************************************/
+#wrapper { position:relative; height:100%; background:url(../pics/charte/bg-footer.jpg) bottom center repeat-x; }
+HTML>BODY>#wrapper  { min-height:100%; height:auto; }
+#global  { position:relative; width:980px; height:auto; left:50%; margin:0 0 0 -490px; padding:0 0 121px 0; z-index:998; }
+
+#habillage   { position:absolute; top:0; width:100%; height:100%; z-index:0; }
+HTML>BODY>#wrapper>#habillage  { min-height:100%; height:auto; }
+#habillage A { position:absolute; top:0; width:100%; height:100%; display:block; font-size:0; text-indent:-9000px; }
+
+/*** HEADER / MENU ***********************************************************************************************************************************/
+#header     { height:151px; padding:25px 0 0 0; }
+HTML>BODY>#wrapper>#global>#header { min-height:151px; height:auto; }
+#logo       { float:left; display:block; width:160px; height:114px; margin:0 0 13px 43px; background: url(../pics/charte/bg-logo.png) top left no-repeat; font-size:0; text-indent:-9000px; }
+#banniere   { float:right; width:730px; height:90px; margin:1px 0 0 0; }
+#banniere A { display:block; width:730px; height:90px; }
+#home { clear:both; display:block; width:102px; height:16px; font-size:0; text-indent:-9000px; background:url(../pics/charte/bg-accueil.jpg) top left no-repeat; }
+#home:hover { background-position:bottom left; }
+
+/*** ARTICLE *****************************************************************************************************************************************/
+#article       { float:left; width:592px; margin:0 28px 30px 0; line-height:18px; background:#fff; }
+#article.sep   { background:#fff url(../pics/charte/bg-separator.jpg) bottom left repeat-x; }
+#article H1    { height:28px; margin:0 0 16px 0; background:#000; color:#FFF; }
+#article H1 A  { display:block; width:592px; height:28px; color:#FFF; text-decoration:none; }
+#article H2    { position:relative; height:28px; margin:0 0 16px 0; background:#000; color:#FFF; }
+#article H2 A  { display:block; height:28px; color:#FFF; line-height:28px; text-decoration:none; }
+#article P     { margin:0 0 15px 0; }
+#article UL    { margin:0 0 15px 15px; }
+#article UL LI { line-height:16px; }
+
+/* homepage */
+#enAvant { position:relative; width:592px; height:191px; margin:0 0 20px 0; background:#000; }
+#enAvant UL { position:absolute; top:0; left:0; width:204px; height:191px; margin:0; background:url(../pics/charte/enAvant.png) top left no-repeat; }
+#enAvant UL LI { display:block; height:38px; }
+#enAvant UL LI A { display:block; height:38px; line-height:38px!important; color:#AAA; font-weight:bold; font-size:14px; text-indent:8px; }
+#enAvant UL LI A:hover { color:#FFF; text-decoration:none; }
+#enAvant UL LI A.active { color:#FFF; }
+#enAvant IMG { position:absolute; top:0; left:0; display:none: }
+
+/* news */
+H2#titrenews A { padding:0 10px 0 0; font-size:10px; text-align:right; text-transform:uppercase; font-weight:bold; background:url(../pics/charte/bg-titre-news.jpg) top left no-repeat; }
+H2#titrenews A:hover { text-decoration:underline; background-position:bottom left; }
+.news { position:relative; height:244px; margin:0 0 14px 0; padding:0 0 2px 0; background:url(../pics/charte/bg-separator.jpg) bottom left repeat-x; }
+.news.last { margin:0; }
+.news .photo { float:left; width:231px; height:231px; margin:0 15px 0 0; }
+.news .vide { float:left; width:229px; height:229px; margin:0 15px 0 0; border:1px solid #F0F0F0; }
+.news .texte { float:left; width:330px; }
+.news .texte H3 { margin:0 0 3px 0; font-size:22px; line-height:20px; text-transform:uppercase; }
+.news .texte H3 A { color:#000; text-decoration:none; }
+.news .texte H3 A:hover { color:#798397; }
+.news .texte SPAN { display:block; }
+.news .texte SPAN.titre { margin:0 0 3px 0; font-size:22px; line-height:20px; }
+.news .texte SPAN.sstitre { margin:0 0 3px 0; font-size:14px; line-height:14px; font-weight:normal; }
+.news .texte SPAN.date { font-size:16px; line-height:16px; }
+
+.news .texte P { margin:0 0 10px 0; line-height:16px; }
+.news .texte .chapo { padding:10px 0 0 0; }
+.news .texte .liens { position:absolute; bottom:11px; width:330px; height:24px; }
+.news .texte .liens A { display:block; float:left; height:24px; line-height:24px; text-transform:uppercase; font-weight:bold; color:#000; text-decoration:none; }
+.news .texte .liens A.tiret { margin:0 11px 0 0; padding:0 13px 0 0; background:url(../pics/charte/bg-tiret.jpg) center right no-repeat; }
+.news .texte .liens A:hover { text-decoration:underline; }
+.news .texte .liens IFRAME { float:right; height:24px; }
+.news .texte .liens IFRAME.twitter-share-button { margin:2px 0 0 12px; }
+
+.news .video { float:left; width:411px; height:231px; margin:0 15px 0 0; }
+.news .texte.vid { float:left; width:149px; }
+.news .texte.vid .liens { position:absolute; bottom:15px; width:149px; height:42px; }
+.news .texte.vid .liens A { width:149px; text-align:right; font-size:11px; }
+
+.noPaging { display:none; }
+.pagingNav { margin:0 0 10px 0!important; padding:10px 0 0 0; text-align:center; font-size:10px; font-weight:bold; color:#fff; line-height:20px; }
+.pagingNav A { padding:3px 6px 3px 6px; text-decoration:none!important; background:#959595; color:#fff; }
+.pagingNav SPAN { padding:3px 6px 3px 6px; background:#AAA; }
+
+.news.entier { height:auto; margin:0 0 20px 0; background:none; }
+.texteEntier { padding:10px 0 0 0; }
+.news.entier .photo { height:auto; text-align:right; }
+.news.entier .video { height:auto; text-align:right; }
+.news.entier .liens { clear:both; padding:10px 0 0 0!important; }
+.news.entier .liens P { margin:0 0 10px 0!important; }
+.news.entier .liens A { text-transform:uppercase; font-weight:bold; color:#000; text-decoration:none; letter-spacing:1px; }
+.news.entier .liens A:hover { text-decoration:underline; }
+.news.entier .liens IFRAME { height:24px; }
+.news.entier .liens IFRAME.twitter-share-button { margin:0 0 2px 12px; }
+
+/* artistes */
+H1#titreartistes { margin:0 0 8px 0; background:#000 url(../pics/charte/bg-titre-artistes-page.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+.filtres { padding:10px 0 10px 18px; font-size:16px; font-weight:bold; line-height:24px; background:url(../pics/charte/bg-separator.jpg) bottom left repeat-x; }
+.filtres A { padding:0 5px 0 5px; color:#000; text-decoration:none; }
+.filtres A.active { color:#3EACE5; }
+.filtres A:hover { color:#3EACE5; }
+UL#artistes { padding:10px 0 0 8px;  list-style:none; font-size:12px; }
+UL#artistes LI.choix { padding:0 0 6px 0; font-weight:bold; color:#3EACE5; font-size:16px; }
+UL#artistes LI A { color:#000; text-decoration:none; font-weight:bold; }
+UL#artistes LI A:hover { color:#3EACE5; }
+
+/* fiche artiste */
+#article H1.cufon { height:26px; margin:0 0 11px 0; padding:2px 0 0 10px; font-size:28px; }
+#photoArtiste { float:left; margin:0 30px 10px 0; }
+#newsArtiste { float:left; width:317px; padding:10px 15px 0 0; line-height:16px; }
+#newsArtiste H2 { height:18px; margin:0 0 10px 0; background:url(../pics/charte/bg-titre-news-artiste.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#bioArtiste { clear:both; padding:14px 42px 27px 42px; border-top:3px solid #F4F5F6; border-bottom:3px solid #F4F5F6; line-height:16px; }
+#bioArtiste H2 { height:18px; margin:0 0 10px 0; background:url(../pics/charte/bg-titre-bio-artiste.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#videosArtiste { padding:14px 0 22px 42px; }
+#videosArtiste H2 { height:23px; margin:0 0 20px 0; background:url(../pics/charte/bg-titre-videos-artiste.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#videosArtiste DIV { margin:0 0 20px 0; }
+#player { margin:0 0 30px 0; }
+#colonne H2#titreconcertsfuturs { height:26px; margin:0 0 10px; background:#000 url(../pics/charte/bg-titre-concerts-futurs.jpg) top center no-repeat; font-size:0; text-indent:-9000px; }
+#colonne H2#titreconcertspasses { height:26px; margin:0 0 10px; background:#000 url(../pics/charte/bg-titre-concerts-passes.jpg) top center no-repeat; font-size:0; text-indent:-9000px; }
+#colonne H2#titresite { height:26px; margin:0 0 10px; background:#000 url(../pics/charte/bg-titre-site.jpg) top center no-repeat; font-size:0; text-indent:-9000px; }
+.concerts { padding:0 0 20px 0; font-size:13px; text-align:center; }
+.concerts P { margin:0 0 10px 0; line-height:18px;}
+.concerts.passes P { margin:0; line-height:18px; font-size:11px; }
+.concerts A { font-size:12px; text-decoration:underline; text-transform:uppercase; color:#000; }
+#site { text-align:center; font-size:14px; }
+#site A { color:#000; }
+
+/* tous les concerts */
+H1#titreconcertstous { background:#000 url(../pics/charte/bg-titre-concerts-tous.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#concerts { padding:0 0 20px 0; }
+#concerts H2 { height:auto; margin:0 0 8px 0; padding:0 0 0 20px; font-size:17px; background:none; color:#000; text-transform:uppercase; }
+#concerts P { margin:0; padding:0 0 0 20px; font-size:13px; }
+#concerts A { color:#2B87B6; font-weight:bold; }
+#concerts A.resa { color:#000; font-weight:normal; text-decoration:underline; }
+#concerts HR { height:2px; margin:16px 0 16px 0; border:none; background:url(../pics/charte/bg-separator.jpg) bottom left repeat-x; }
+
+/* concours */
+H1#titreconcourspage { background:#000 url(../pics/charte/bg-titre-concours-page.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+H1#titreconcoursfiche A { width:582px; padding:0 10px 0 0; font-size:10px; text-align:right; text-transform:uppercase; font-weight:bold; line-height:27px; background:url(../pics/charte/bg-titre-concours-page.jpg) top left no-repeat; }
+H1#titreconcoursfiche A:hover { text-decoration:underline; background-position:bottom left; }
+.concoursDesc { padding:0 0 0 11px; font-size:12px; line-height:18px; }
+.concoursDesc H2 { height:auto!important; margin:0!important; color:#2B87B6!important; font-size:14px; background:none!important; }
+.concoursDesc H3 { font-weight:normal; }
+
+.concoursForm { margin:0 0 0 0; padding:0 0 5px 0; background:url(../pics/charte/bg-separator.jpg) bottom left repeat-x; }
+.concoursForm P { clear:both; width:246px; height:22px; margin:0 0 5px 0!important; padding:3px 0 3px 12px; background:#000; }
+.concoursForm LABEL { float:left; display:block; width:106px; height:22px; background:#000; color:#fff; line-height:22px; font-weight:bold; }
+.concoursForm INPUT { float:left; display:block; width:131px; height:19px; padding:0 2px 1px 2px; line-height:20px; background:#fff; color:#000; font-size:12px; border:1px solid #8A8A8A; font-family:Arial, Helvetica, sans-serif; }
+.concoursForm .submitConcours { height:28px; padding:20px 0 0 119px; background:none; }
+.concoursForm .submitConcours INPUT { width:69px; height:28px; padding:0 0 2px 0; background:#000; color:#fff; font-weight:bold; line-height:28px; border:none; cursor:pointer; }
+
+.reglement { padding:20px 0 0 11px!important; font-size:11px; background:none!important; }
+.reglement A { color:#A0A0A0; }
+
+.resultatConcours { padding:45px 0 0 11px; font-size:14px; }
+.resultatConcours A { display:block; width:150px; height:28px; margin:80px 0 80px 0; line-height:28px; text-align:center; color:#fff; background:#000; font-size:12px; text-decoration:none; }
+
+/* formulaire de contact */
+H1#titrecontact { background:#000 url(../pics/charte/bg-titre-contact.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#contactForm { margin:0 0 40px 0; }
+#contactForm H2 {  height:auto; margin:30px 0 30px 0; padding:0 0 0 10px; color:#000; font-size:14px; background:none; }
+#contactForm P { clear:both; width:246px; height:22px; margin:0 0 5px 0!important; padding:3px 0 3px 12px; background:#000; }
+#contactForm LABEL { float:left; display:block; width:106px; height:22px; background:#000; color:#fff; line-height:22px; font-weight:bold; }
+#contactForm INPUT { float:left; display:block; width:131px; height:19px; padding:0 2px 1px 2px; line-height:20px; background:#fff; color:#000; font-size:12px; border:1px solid #8A8A8A; font-family:Arial, Helvetica, sans-serif; }
+#contactForm INPUT#email { margin:0 0 55px 0; }
+#contactForm INPUT#objet { width:255px; }
+#contactForm P.textarea  { width:384px; height:auto; padding:3px 0 3px 0; background:none; }
+#contactForm P.textarea LABEL { float:none; width:372px; height:29px; padding:0 0 0 12px; line-height:28px; }
+#contactForm P.textarea TEXTAREA { display:block; width:362px; height:162px; padding:5px 9px 5px 9px; line-height:20px; background:#fff; color:#000; font-size:12px; border:none; font-family:Arial, Helvetica, sans-serif; border:2px solid #000; }
+#contactForm P.textarea SMALL { display:block; padding:0 0 0 10px; font-size:10px; }
+#contactForm #submitContact { height:28px; padding:20px 0 0 10px; background:none; }
+#contactForm #submitContact INPUT { width:69px; height:28px; padding:0 0 2px 0; background:#000; color:#fff; font-weight:bold; line-height:28px; border:none; cursor:pointer; }
+#contactForm #submitContact INPUT#cancel { margin:0 80px 0 0; background:#575556; }
+
+/* pro */
+H1#titrepro { background:#000 url(../pics/charte/bg-titre-pro.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#pro { padding:0 0 20px 20px; }
+#pro H2 { height:auto; margin:0 0 20px 0; font-size:17px; color:#000; background:none; }
+#pro p { margin:0!important; }
+#pro .groupe { color:#2b87b6 !important; font-weight:bold; }
+#pro .new { color:#ff00ff!important; font-style:italic;  }
+#pro .site { font-size:10px; color:#000; }
+
+/* news */
+H1#titrenews { background:#000 url(../pics/charte/bg-titre-news-page.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+
+/* recherche */
+H1#titrerecherche { margin:0; background:#000 url(../pics/charte/bg-titre-recherche-page.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#resultats { padding:0 0 100px 0; }
+#resultats H2 { height:23px; margin:0 0 15px 0; padding:0 0 0 12px; font-size:15px; line-height:24px; text-transform:uppercase; }
+#resultats P { margin:0; padding:0 0 0 12px; font-size:13px; }
+#resultats A { color:#2B87B6; font-weight:bold; }
+#resultats A.resa { color:#000; font-weight:normal; text-decoration:underline; }
+
+/* newsletter */
+H1#titrenewsletterpage { margin:0; background:#000 url(../pics/charte/bg-titre-newsletter-page.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#newsletterForm { padding:0 0 30px 0; }
+#newsletterForm H2 {  height:auto; margin:20px 0 30px 0; padding:0 0 0 10px; color:#000; font-size:12px; font-weight:normal; background:none; }
+#newsletterForm P { clear:both; width:246px; height:22px; margin:0 0 5px 0!important; padding:3px 0 3px 12px; background:#000; }
+#newsletterForm LABEL { float:left; display:block; width:106px; height:22px; background:#000; color:#fff; line-height:22px; font-weight:bold; }
+#newsletterForm INPUT { float:left; display:block; width:131px; height:19px; padding:0 2px 1px 2px; line-height:20px; background:#fff; color:#000; font-size:12px; border:1px solid #8A8A8A; font-family:Arial, Helvetica, sans-serif; }
+#newsletterForm INPUT.chk { clear:both; width:auto; height:auto; margin:0 5px 20px 150px; padding:0; }
+#newsletterForm INPUT#email { margin:0 0 30px 0; }
+#newsletterForm INPUT#html { margin:0 5px 30px 0; }
+#newsletterForm P.checkboxes { position:relative; height:auto; width:auto; padding:0; background:none; }
+#newsletterForm P.checkboxes SPAN { position:absolute; top:0; left:0; padding:0 0 0 12px; line-height:12px; }
+#newsletterForm P.checkboxes LABEL { width:auto; height:auto; margin:0; padding:0; background:none; color:#000; line-height:11px; }
+#newsletterForm P.checkboxes DIV.chk { clear:left; float:left; width:10px; height:10px; margin:0 5px 20px 150px; background: url(../pics/charte/bg-custom-input.gif) top left no-repeat; cursor:pointer; }
+#newsletterForm P.checkboxes DIV.checked { background: url(../pics/charte/bg-custom-input.gif) bottom left no-repeat; }
+#newsletterForm P.checkboxes.type SPAN { position:relative; display:block; float:left; width:138px; }
+#newsletterForm P.checkboxes.type LABEL { width:auto; height:auto; margin:0 15px 0 0; padding:0; background:none; color:#000; }
+#newsletterForm P.checkboxes.type INPUT.chk { display:block; clear:none; margin:0 5px 20px 0; }
+#newsletterForm P.checkboxes.type DIV.chk { clear:none; margin:0 5px 20px 0; }
+#newsletterForm #notes { padding:0 10px 0 10px; }
+#newsletterForm #notes P { height:auto; width:auto; margin:0 0 15px 0!important; padding:0; background:none; font-size:11px; line-height:12px; }
+#newsletterForm #accepte INPUT { margin:2px 5px 20px 25px; }
+#newsletterForm #accepte DIV.chk { clear:left; float:left; width:10px; height:10px; margin:2px 8px 20px 25px; background: url(../pics/charte/bg-custom-input.gif) top left no-repeat; cursor:pointer; }
+#newsletterForm #accepte DIV.checked { background: url(../pics/charte/bg-custom-input.gif) bottom left no-repeat; }
+#newsletterForm #accepte LABEL { width:auto; height:auto; background:none; color:#000; font-weight:normal; font-size:11px; line-height:12px; }
+#newsletterForm #submitInscription { height:28px; padding:20px 0 0 150px; background:none; }
+#newsletterForm #submitInscription INPUT { width:80px; height:28px; padding:0 0 2px 0; background:#000; color:#fff; font-weight:bold; line-height:28px; border:none; cursor:pointer; }
+#newsletterForm #loi { width:auto; height:auto; padding:20px 20px 0 10px; line-height:10px; background:none; font-size:10px; color:#7A7676; }
+
+/* mentions */
+#mentions P { padding:0 20px 0 20px; }
+
+/*** COLONNE *****************************************************************************************************************************************/
+#colonne { position:relative; float:left; width:360px; margin:0 0 30px 0; line-height:18px; }
+#colonne H2    { position:relative; height:28px; background:#000; color:#FFF; }
+#colonne H2 A  { display:block; height:28px; color:#FFF; line-height:28px; text-decoration:none; }
+
+/* recherche */
+#mode { display:none; }
+#searchForms { margin:5px 0 21px 0; background:#000; }
+H2#titrerecherche A { background:#000 url(../pics/charte/bg-titre-recherche.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+H2#titrerecherche A:hover { background-position:bottom left; }
+A#classicSearch { position:absolute; top:8px; right:11px; display:block; width:55px; height:14px; font-size:10px; line-height:14px; text-decoration:none; color:#fff; background:url(../pics/charte/bg-recherche-classique.gif) top right no-repeat; }
+#searchFormClassic { height:25px; margin:0 0 0 0; padding:12px 0 12px 9px; background:#000; color:#fff; }
+#searchFormClassic INPUT { float:left; font-size:10px; font-family:Arial, Helvetica, sans-serif; color:#000; line-height:22px; border:1px solid #959595; }
+#searchFormClassic INPUT#keywords { width:192px; height:18px; padding:2px 5px 3px 5px; line-height:18px; }
+#searchFormClassic INPUT#submitSearchClassic { width:70px; height:25px; padding:1px 0 4px 0; border-left:none; background:#626A7A; color:#fff; cursor:pointer; }
+#searchFormClassic A { display:block; float:left; width:52px; height:21px; padding:2px 0 0 10px; color:#fff; font-size:10px; line-height:10px; letter-spacing:-0.2px; text-decoration:none; background:url(../pics/charte/bg-recherche-avancee.gif) bottom right no-repeat; }
+
+#searchFormAdvanced { height:75px; padding:12px 0 12px 10px; background:#000; color:#fff; }
+#searchFormAdvanced P { clear:both; }
+#searchFormAdvanced SELECT { float:left; width:153px; height:15px; margin:0 0 11px 0; font-size:10px; font-family:Arial, Helvetica, sans-serif; color:#000; border:none; }
+#searchFormAdvanced OPTION { text-transform:uppercase; }
+#searchFormAdvanced SELECT#artistes { margin:0 32px 11px 0; }
+#searchFormAdvanced SELECT#dates { margin:0 32px 12px 0; }
+#searchFormAdvanced LABEL { display:block; float:left; height:21px; padding:1px 0 0 0; line-height:22px; font-size:10px; text-align:right; }
+#searchFormAdvanced LABEL#labelDebut { width:54px; padding:0 7px 0 0; }
+#searchFormAdvanced LABEL#labelFin { width:24px; padding:0 7px 0 0; }
+#searchFormAdvanced INPUT { float:left; width:56px; height:16px; padding:3px 5px 1px 5px; line-height:15px; font-size:10px; font-family:Arial, Helvetica, sans-serif; color:#000; border:1px solid #959595; border-right:none; }
+#searchFormAdvanced INPUT#submitSearchAdvanced { width:30px; height:20px; margin:1px 0 0 0; padding:1px 0 4px 0; background:#626A7A; color:#fff; cursor:pointer; }
+#searchFormAdvanced IMG { float:left; }
+#searchFormAdvanced IMG#dateFinCalendar { margin:0 31px 0 0; }
+
+H2#titreartistes { margin:0 0 21px 0; }
+H2#titreartistes A { display:block; font-size:0; text-indent:-9000px; background:#000 url(../pics/charte/bg-titre-artistes.jpg) top left no-repeat; }
+H2#titreartistes A:hover { background-position:bottom left; }
+
+H2#titreconcerts { margin:0 0 21px 0; }
+H2#titreconcerts A { display:block; font-size:0; text-indent:-9000px; background:#000 url(../pics/charte/bg-titre-concerts.jpg) top left no-repeat; }
+H2#titreconcerts A:hover { background-position:bottom left; }
+
+H2#titrenewsletter { margin:0 0 21px 0; }
+H2#titrenewsletter A { display:block; font-size:0; text-indent:-9000px; background:#000 url(../pics/charte/bg-titre-newsletter.jpg) top left no-repeat; }
+H2#titrenewsletter A:hover { background-position:bottom left; }
+
+H2#titreconcours { margin:0 0 5px 0; }
+H2#titreconcours A { display:block; padding:0 10px 0 0; font-size:10px; text-align:right; text-transform:uppercase; font-weight:bold; background:#000 url(../pics/charte/bg-titre-concours.jpg) top left no-repeat; }
+H2#titreconcours A:hover { text-decoration:underline; background-position:bottom left; }
+#concours { margin:0 0 25px 0; padding:14px 12px 14px 12px; background:#000; }
+#concours P { color:#fff; text-align:center; font-size:14px; line-height:16px; }
+#concours A { color:#fff; text-decoration:none; }
+#concours A:hover { text-decoration:underline; }
+#concours P .jaune { color:#dcd6b2!important; }
+#concours HR { margin:11px 0 11px 0; height:2px; border:none; background:url(../pics/charte/bg-hr-concours.jpg) center center no-repeat; }
+
+#twitter { width:360px; height:35px; margin:0 0 19px 0; }
+#twitter A { display:block; width:360px; height:35px; background:url(../pics/charte/bg-twitter.jpg) top left no-repeat; font-size:0; text-indent:-9000px; }
+#twitter A:hover { background-position:bottom left; }
+
+/*** FOOTER *****************************************************************************************************************************************/
+#footerContainer { position:absolute; bottom:0; width:100%; height:120px; border-top:1px solid #fff; z-index:999; background:url(../pics/charte/bg-footer.jpg) top left repeat-x; }
+#footer { position:relative; width:980px; left:50%; margin:0 0 0 -490px; height:103px; padding:17px 0 0 0; color:#E3E3E3; }
+#footer A { color:#E3E3E3; text-decoration:none; }
+#footer A:hover { text-decoration:underline; }
+#footerRss { float:right; width:60px; height:16px; padding:0 28px 0 0; text-align:right; line-height:20px; background:url(../pics/charte/bg-rss.jpg) top right no-repeat; }
+#footerRss A { display:block; text-decoration:none; }
+#footerMain { float:left; font-size:17px; font-weight:bold; }
+#footerSec { clear:both; padding:8px 0 0 0; font-size:13px; }
+
+
+
+/*** CLASSES *****************************************************************************************************************************************/
+.clear   { clear:both; height:0px; line-height:0px; font-size:0; text-indent:-90000px; }
+.spacer  { clear:both; }
+.droite  { float:right; }
+.gauche  { float:left; }
+.left    { text-align:left; }
+.right   { text-align:right; }
+.center  { text-align:center; }
+.justify { text-align:justify; }
+.rouge   { color:#F00; }
+
+/********** CALENDRIER JS **********/
+DIV.calendar { position: relative; width:203px; height:189px; padding:5px 6px 6px 5px; z-index: 10000; font-family: tahoma,verdana,sans-serif; font-size: 11px; color: #666; background:url(../pics/charte/bg-calendar.png) top left no-repeat; cursor: default; }
+.calendar TABLE { font-family:Arial, Helvetica, sans-serif; font-size: 11px; color: #666; background: #F0F0F0; cursor: default; }
+.calendar .button { padding: 2px; text-align: center; }
+.calendar THEAD TD { height:18px; line-height:16px; }
+.calendar THEAD .button { background:#000; color:#E0E0E0; }
+.calendar THEAD .calendarHelp { display:none; }
+.calendar THEAD .title { padding: 2px; font-weight: bold; text-align: center; background:#000; color:#E0E0E0; }
+.calendar THEAD .headrow { color: #FFF; background: #5988C6; font-weight:bold; }
+.calendar THEAD .headrow TD { padding:0 2px 2px 2px; }
+.calendar THEAD .headrow .button { display:table-cell; }
+.calendar THEAD .daynames .button { display:table-cell; }
+.calendar THEAD .name { padding: 2px; text-align: center; color: #666; }
+.calendar THEAD .weekend {  }
+.calendar THEAD .hilite { background:#666; }
+.calendar THEAD .hilite.buttonHidden { background:#000!important; color:#E0E0E0!important; }
+.calendar THEAD .active { padding: 2px 0px 0px 2px; background-color: #666; }
+.calendar TBODY .day { width: 2em; padding: 2px 4px 2px 2px; text-align: center; color: #666; background:#E5E5E5; border-top:1px solid #BBB; border-left:1px solid #BBB; }
+.calendar THEAD .day.hilite { background:#F2F2F2; color:#000; }
+.calendar TBODY .day.othermonth { font-size: 80%; color: #BBB; }
+.calendar TBODY .day.othermonth.oweekend { color: #FBB; }
+.calendar TABLE .wn { padding: 2px 3px 2px 2px; border-right: 1px solid #000; background: #ECF4FF; }
+.calendar TBODY .rowhilite TD.wn { background: #EEF; }
+.calendar TBODY TD.hilite { color: #000; }
+.calendar TBODY TD.selected { font-weight: bold; color: #000; background: #FFF; }
+.calendar TBODY TD.today { font-weight: bold; color: #000; }
+.calendar TBODY .disabled { color: #999; }
+.calendar TBODY .emptycell { border-left:1px solid #BBB; border-top:1px solid #BBB; }
+.calendar TBODY .emptyrow { display: none; }
+.calendar TFOOT .footrow {  text-align: center; color: #FFF; background: #556; }
+.calendar TFOOT .ttip {  padding: 1px; color: #445; border-top: 1px solid #556; background:#000; color:#E0E0E0; }
+.calendar TFOOT .hilite { padding: 1px; color: #000; border: 1px solid #04F; background: #AAF; }
+.calendar TFOOT .active { padding: 2px 0px 0px 2px; background: #B0C6E4; }
+.calendar .combo { position: absolute; display: none; top: 0px; left: 0px; width: 4em; color: #666; border: 1px solid #655; background: #F0F0F0; font-size: 90%; z-index: 100; cursor: default; }
+.calendar .combo .label, .calendar .combo .label-IEfix { text-align: center; padding: 1px; }
+.calendar .combo .label-IEfix { width: 4em; }
+.calendar .combo .hilite { color: #333;  }
+.calendar .combo .active { font-weight: bold; border-top: 1px solid #46A; border-bottom: 1px solid #46A;  }
+.calendar TD.time { padding: 1px 0px; text-align: center; border-top: 1px solid #000; background-color: #F4F0E8; }
+.calendar TD.time .hour, .calendar TD.time .minute, .calendar TD.time .ampm { padding: 0px 3px 0px 4px; border: 1px solid #889; font-weight: bold; background-color: #FFF; }
+.calendar TD.time .ampm { text-align: center; }
+.calendar TD.time .colon { padding: 0px 2px 0px 3px; font-weight: bold; }
+.calendar TD.time SPAN.hilite { border-color: #000; background-color: #667; color: #FFF; }
+.calendar TD.time SPAN.active { border-color: #F00; background-color: #000; color: #0F0; }
