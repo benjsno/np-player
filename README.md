@@ -1,6 +1,6 @@
 **Version**: v1.0
 
-*Déposez le dossier `np-player` à la racine du site. Les dossiers* `css` *, * `pics` * et le fichier * `index.php` * sont nécessaires uniquement pour l'exemple d'intégration.*
+*Déposez le dossier `np-player` à la racine du site. Les dossiers* `css` *,* `pics` *et le fichier* `index.php` *sont nécessaires uniquement pour l'exemple d'intégration.*
 
 NOUS PROD Player
 ==========================
