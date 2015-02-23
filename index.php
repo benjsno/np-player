@@ -35,7 +35,7 @@
 				</div>
 				
 			      
-			    <div id="colonne"><div style="background:#DDD;height:1200px"></div></div>
+				<div id="colonne"><div style="background:#DDD;height:1200px"></div></div>
 				
 				<div class="clear"></div>
 				
