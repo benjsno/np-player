@@ -26,18 +26,17 @@
 					<div id="banniere"><div style="background:#DDD;width:730px;height:90px"></div></div>
 				</div>
 				
-			    <div id="article">
+				<div id="article">
 			    
-			    	<iframe id="np-player" scrolling="no" frameborder="0" src="./np-player/iframe/np-player.php?d=2015-01-06" width="592" height="506"></iframe>
+					<iframe id="np-player" scrolling="no" frameborder="0" src="./np-player/iframe/np-player.php?d=2015-01-06" width="592" height="506"></iframe>
 			    
-			    	<div style="background:#DDD;height:2000px"></div>  	
+					<div style="background:#DDD;height:2000px"></div>  	
 			    
-			    </div>
+				</div>
 				
 			      
-			    <div id="colonne">
-			    	<div style="background:#DDD;height:1200px"></div>  	
-				</div>
+			    <div id="colonne"><div style="background:#DDD;height:1200px"></div></div>
+				
 				<div class="clear"></div>
 				
 				<div id="footerContainer">
