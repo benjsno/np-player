@@ -8,6 +8,10 @@ Ce player HTML5 charge des vidéos depuis [Vimeo](https://vimeo.com/).
 Il propose, sous le player vimeo, des infos cliquables concernant la vidéo en lecture  et un menu de visuels cliquables lançant chacun une vidéo. 
 Les données du player sont chargées depuis un fichier JSON externe se trouvant dans le dossier np-player/data/
 
+*Pour un player vimeo le plus sobre possible, 
+il faut un compte `vimeo plus` pour pouvoir supprimer la barre de control
+dans les paramètres vidéos d'intégration.*
+
 ## Usage ##
 
 ###Définir les données du player###
