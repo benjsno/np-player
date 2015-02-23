@@ -1,6 +1,6 @@
 **Version**: v1.0
 
-*Déposez le dossier `np-player` à la racine du site. Les dossiers `css`, `pics` et le fichier `index.php` sont nécessaires uniquement pour l'exemple d'intégration.*
+*Déposez le dossier `np-player` à la racine du site. Les dossiers* `css`*, *`pics`* et le fichier *`index.php`* sont nécessaires uniquement pour l'exemple d'intégration.*
 
 NOUS PROD Player
 ==========================
@@ -9,7 +9,7 @@ Il propose, sous le player vimeo, des infos cliquables concernant la vidéo en l
 Les données du player sont chargées depuis un fichier JSON externe se trouvant dans le dossier np-player/data/
 
 *Pour un player vimeo le plus sobre possible, 
-il faut un compte `vimeo plus` pour pouvoir supprimer la barre de control
+il faut un compte* `vimeo plus` *pour pouvoir supprimer la barre de control
 dans les paramètres vidéos d'intégration.*
 
 ## Usage ##
