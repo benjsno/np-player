@@ -1,0 +1,92 @@
+{
+	"0":{
+		"title" : "Black Berry Smoke",
+		"subtitle" : "24 octobre 2014 - Alhambra / Paris",
+		"pict_url" : "http://www.nousproductions.com/pics/data/artistes/photoBios/413-230x230.jpg",
+		"vi_video_id" : "97933438",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"1":{
+		"title" : "Black Label Society",
+		"subtitle" : "26 février 2015 - Bataclan / Paris",
+		"pict_url" : "../data/2015-01-06/thumb/BLACKLABELSOCIETY.jpg",
+		"vi_video_id" : "97933439",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"2":{
+		"title" : "Black Stone Cherry",
+		"subtitle" : "20 octobre 2014 - Le cabaret Sauvage / Paris",
+		"pict_url" : "../data/2015-01-06/thumb/BLACKSTONECHERRY.jpg",
+		"vi_video_id" : "97933440",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"3":{
+		"title" : "Clutch",
+		"subtitle" : "20 juin 2015 - Nouveau Casino / Paris",
+		"pict_url" : "../data/2015-01-06/thumb/CLUTCH.jpg",
+		"vi_video_id" : "113410323",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"4":{
+		"title" : "In Flames",
+		"subtitle" : "Bordeaux / Clermont-Ferrand / Paris / Strasbourg",
+		"pict_url" : "../data/2015-01-06/thumb/INFLAMES.jpg",
+		"vi_video_id" : "97933440",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"5":{
+		"title" : "Limp Bizkit",
+		"subtitle" : "3 juillet 2015 - Bataclan / Paris",
+		"pict_url" : "../data/2015-01-06/thumb/LIMPBIZKIT.jpg",
+		"vi_video_id" : "97933440",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"6":{
+		"title" : "Machine Head",
+		"subtitle" : "Strasbourg / Paris / Toulouse / Marseille",
+		"pict_url" : "../data/2015-01-06/thumb/MACHINEHEAD.jpg",
+		"vi_video_id" : "97933440",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"7":{
+		"title" : "Rob Zombie",
+		"subtitle" : "12 juin 2015 - Bataclan / Paris",
+		"pict_url" : "../data/2015-01-06/thumb/ROBZOMBIE.jpg",
+		"vi_video_id" : "97933440",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"8":{
+		"title" : "Sabaton",
+		"subtitle" : "Heroes on Tour - Lille / Toulouse / Lyon / Strasbourg",
+		"pict_url" : "../data/2015-01-06/thumb/SABATON.jpg",
+		"vi_video_id" : "97933440",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	},
+	"9":{
+		"title" : "Slayer",
+		"subtitle" : "4 juillet 2015 - Le Zénith / Paris",
+		"pict_url" : "../data/2015-01-06/thumb/SLAYER.jpg",
+		"vi_video_id" : "97933440",
+		"title_url" : "http://www.google.fr",
+		"subtitle_url" : "http://www.google.fr",
+		"book_url" : "http://www.google.fr"
+	}
+}
